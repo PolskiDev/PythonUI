@@ -1,7 +1,7 @@
 # PythonUI - For Python 3.6
 #### Developed by Gabriel Margarido - Feb 4th 2022
 
-<img src="python.png" width="30%" height="30%">
+<img src="python.png" width="60%" height="60%">
 
 ## Import Python UI
 - Download Python UI at releases page and move it to your project's folder.
