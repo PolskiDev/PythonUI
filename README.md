@@ -99,13 +99,13 @@ myretry = pythonui.AskYesNoCancelBox("Confirmation","Do you wish to confirm?")
 ## Execute Shell Commands as Sudo (Super user)
 `123` is the superuser password, `sudo apt install sct -y` is the command we wish to run.
 ```
-ExecuteSudoCommand("123","sudo apt install sct -y")
+pythonui.ExecuteSudoCommand("123","sudo apt install sct -y")
 ```
 
 ## Execute Shell Commands as default user (~/)
 `sudo apt install sct -y` is the command we wish to run.
 ```
-ExecuteCommand("sudo apt install sct -y")
+pythonui.ExecuteCommand("sudo apt install sct -y")
 ```
 
 
