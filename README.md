@@ -79,12 +79,17 @@ myretry = pythonui.AskRetry("Retry?","Do you wish to retry?")
 ## Yes-No Boxes
 ### Create Retry Question Box
 `"Confirmation"` is the title of the window, `"Do you wush to confirm?"` is the message of the window.
+
+*Returns*: `True` or `False`
 ```
 myretry = pythonui.AskYesNoBox("Confirmation","Do you wish to confirm?")
 ```
 
 ### Create Retry Question Box
 `"Confirmation"` is the title of the window, `"Do you wish to confirm?"` is the message of the window.
+
+*Returns*: `True`, `False` or `None`
+
 ```
 myretry = pythonui.AskYesNoCancelBox("Confirmation","Do you wish to confirm?")
 ```

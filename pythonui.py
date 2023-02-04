@@ -1,7 +1,6 @@
-import tkinter
 import tkinter.simpledialog
+import tkinter.messagebox
 from tkinter import filedialog as fd
-from tkinter import *
 
 import os
 
@@ -72,7 +71,7 @@ def FilesWindow(defaultExtension):
     return filenames
 
 def FolderWindow():
-    tk = Tk()
+    tk = tkinter.Tk()
     tk.withdraw()
     return fd.askdirectory()
 
