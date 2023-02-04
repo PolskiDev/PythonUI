@@ -47,11 +47,6 @@ def FileWindow(defaultExtension):
         title='Open a file',
         initialdir='/',
         filetypes=filetypes)
-
-    showinfo(
-        title='Selected File',
-        message=filename
-    )
     return filename
 
 def FilesWindow(defaultExtension):
@@ -63,11 +58,6 @@ def FilesWindow(defaultExtension):
         title='Open a file',
         initialdir='/',
         filetypes=filetypes)
-
-    showinfo(
-        title='Selected File',
-        message=filenames
-    )
     return filenames
 
 def FolderWindow():
